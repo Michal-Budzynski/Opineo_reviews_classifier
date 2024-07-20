@@ -1,4 +1,3 @@
-# Reviews_classifier
 # Opineo Reviews Classifier
 
 ## Opis projektu
