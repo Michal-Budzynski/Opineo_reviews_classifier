@@ -26,7 +26,7 @@ Projekt jest klasyfikatorem opinii i ocen użytkowników pochodzących z serwis�
 Projekt składa się z trzech głównych części:
 1. **Jupyter Notebook**: `code.ipynb` - plik zawiera kod użyty do przeprowadzenia analizy
 2. **Dokument PDF**: `project_presentation.pdf` - plik zawiera szczegółową prezentację projektu  
-3. **Zbiory danych niezbędnych do przeprowadzenia analizy**: 'opineo_reviews.csv' oraz 'polishstopwords.txt'
+3. **Zbiory danych niezbędnych do przeprowadzenia analizy**: 'polishstopwords.csv' oraz 'polish_sentiment_dataset.csv' (UWAGA. Zbiór 'polish_sentiment_dataset.csv' należy samodzielnie pobrać z dysku Google wskazanego w następnym rozdziale)
 
 ## Baza danych
 Baza danych zawiera informacje o treści recenzji wydanych przez użytkowników oraz ich ocenie firmy:
@@ -34,7 +34,7 @@ Baza danych zawiera informacje o treści recenzji wydanych przez użytkowników 
 - **Ocena 0** - oznacza ocenę neutralną
 - **Ocena -1** - oznacza ocenę negatywną
 
-Baza danych: [link](https://github.com/Ermlab/pl-sentiment-analysis)
+Bazę danych należy samodzielnie pobrać pod adresem: [link](https://drive.google.com/file/d/1vXqUEBjUHGGy3vV2dA7LlvBjjZlQnl0D/view). Wspomniana baza danych pochodzi bezpośrednie z następującego repozytorium Github [link](https://github.com/Ermlab/pl-sentiment-analysis)
 
 ## Zastosowane narzędzia
 - Podstawowa analiza statystyczna
