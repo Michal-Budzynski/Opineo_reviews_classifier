@@ -17,7 +17,6 @@ Projekt jest klasyfikatorem opinii i ocen użytkowników pochodzących z serwis�
 9. [Potenjalne kierunki rozwoju](#potencjalne-kierunki-rozwoju)
 10. [Podsumowanie i wnioski](#podsumowanie-i-wnioski)
 11. [Instrukcja instalacji](#instrukcja-instalacji)
-12. [Użycie](#użycie)
 
 ## Cel analizy
 1. Wyodrębnienie istotnych elementów z perspektywy klienta. Na co klienci zwracają uwagę?
@@ -127,19 +126,3 @@ Finalnie do dalszych predykcji wykorzystano model LSI z 4 tematami.
     ```sh
     pip install -r requirements.txt
     ```
-
-## Użycie
-```python
-import model
-
-# Załaduj dane
-data = model.load_data('path_to_data')
-
-# Trenuj model
-lda_model = model.train_lda(data)
-
-# Przeprowadź predykcję
-topics = model.predict(lda_model, data)
-
-# Wyświetl wyniki
-model.visualize(lda_model, data)
