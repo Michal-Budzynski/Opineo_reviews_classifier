@@ -12,7 +12,7 @@ Projekt jest klasyfikatorem opinii i ocen użytkowników pochodzących z serwis�
 4. [Zastosowane narzędzia](#zastosowane-narzedzia)
 5. [Wstępna eksploracja danych](#wstępna-eksploracja-danych)
 6. [Przygotowanie danych do modelowania](#przygotowanie-danych-do-modelowania)
-7. [Modele klasyfikacji tematycznej(LDA, LSI, HDP)] (#modele-klasyfikacji-tematycznej)
+7. [Modele klasyfikacji tematycznej(LDA, LSI, HDP)](#modele-klasyfikacji-tematycznej)
 8. [Mocne i słabe strony modelu](#mocne-i-słabe-strony-modelu)
 9. [Potenjalne kierunki rozwoju](#potencjalne-kierunki-rozwoju)
 10. [Podsumowanie i wnioski](#podsumowanie-i-wnioski)
