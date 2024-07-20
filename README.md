@@ -1,29 +1,41 @@
 # Opineo Reviews Classifier
+Available only in polish language
 
 ## Opis projektu
 Ten projekt jest klasyfikatorem opinii i ocen użytkowników pochodzących z serwisów Opineo, Twitter oraz YouTube, napisanych w języku polskim. Projekt ma na celu klasyfikację opinii jako pozytywne, neutralne oraz negatywne. Ponadto, projekt ma na celu ukazanie tematów najczęściej poruszanych w recenzjach.
 
-## Agenda
-1. Opis problemu
-2. Cel analizy i zastosowane narzędzia
-3. Wstępna eksploracja danych
-4. Przygotowanie danych do modelowania
-5. Modele klasyfikacji tematycznej (LDA, LSI, HDP)
-6. Potencjalne kierunki rozwoju
-7. Mocne i słabe strony modelu
-8. Podsumowanie i wnioski
+## Spis treści
 
-## Opis problemu
+1. [Cel analizy] (#cel-analizy)
+2. [Struktura projektu] (#struktura-projektu)
+3. [Baza danych] (#baza-danych)
+4. [Zastosowane narzędzia] (#zastosowane-narzedzia)
+5. [Wstępna eksploracja danych] (#wstępna-eksploracja-danych)
+6. [Przygotowanie danych do modelowania] (#przygotowanie-danych-do-modelowania)
+7. [Modele klasyfikacji tematycznej (LDA, LSI, HDP)] (#modele-klasyfikacji-tematycznej)
+8. [Mocne i słabe strony modelu] (#mocne-i-słabe-strony-modelu)
+9. [Potenjalne kierunki rozwoju] (#potencjalne-kierunki-rozwoju)
+10. [Podsumowanie i wnioski] (#podsumowanie-i-wnioski)
+11. [Instrukcja instalacji] (#instrukcja-instalacji)
+12. [Użycie] (#użycie)
+
+## Cel analizy
+1. Wyodrębnienie istotnych elementów z perspektywy klienta. Na co klienci zwracają uwagę?
+2. Budowa modelu klasyfikacyjnego, który będzie przypisywał temat wypowiedzi do opinii klienta.
+
+## Struktura projektu
+Projekt składa się z trzech głównych części:
+1. **Jupyter Notebook**: `code.ipynb` - plik zawiera kod użyty do przeprowadzenia analizy
+2. **Dokument PDF**: `project_presentation.pdf` - plik zawiera szczegółową prezentację projektu  
+3. **Zbiory danych niezbędnych do przeprowadzenia analizy**: 'opineo_reviews.csv' oraz 'polishstopwords.txt'
+
+## Baza danych
 Baza danych zawiera informacje o treści recenzji wydanych przez użytkowników oraz ich ocenie firmy:
 - **Ocena 1** - oznacza ocenę pozytywną
 - **Ocena 0** - oznacza ocenę neutralną
 - **Ocena -1** - oznacza ocenę negatywną
 
 Baza danych: [link](https://github.com/Ermlab/pl-sentiment-analysis)
-
-## Cel analizy
-1. Wyodrębnienie istotnych elementów z perspektywy klienta. Na co klienci zwracają uwagę?
-2. Budowa modelu klasyfikacyjnego, który będzie przypisywał temat wypowiedzi do opinii klienta.
 
 ## Zastosowane narzędzia
 - Podstawowa analiza statystyczna
@@ -44,7 +56,7 @@ Struktura opinii:
 - Negatywna: 183 391 (20%)
 - **Suma**: 936 188
 
-### Wnioski z eksploracji danych
+Wnioski:
 - Widoczna asymetria prawostronna wskazuje na tendencje klientów do formowania relatywnie krótkich wypowiedzi.
 - Wysoka wariancja informuje o dużym zróżnicowaniu pod względem długości wypowiedzi.
 - Dane zagregowane do słów są bardziej interpretowalne. Połowa klientów używa od 6 do 14 słów w swojej wypowiedzi.
