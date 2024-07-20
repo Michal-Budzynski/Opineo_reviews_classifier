@@ -1,7 +1,7 @@
 # Opineo Reviews Classifier
 
 ## Opis projektu
-Ten projekt jest klasyfikatorem opinii i ocen użytkowników pochodzących z serwisów Opineo, Twitter oraz YouTube, napisanych w języku polskim. 
+Ten projekt jest klasyfikatorem opinii i ocen użytkowników pochodzących z serwisów Opineo, Twitter oraz YouTube, napisanych w języku polskim. Projekt ma na celu klasyfikację opinii jako pozytywne, neutralne oraz negatywne. Ponadto, projekt ma na celu ukazanie tematów najczęściej poruszanych w recenzjach.
 
 ## Agenda
 1. Opis problemu
