@@ -2,22 +2,22 @@
 Available only in polish language
 
 ## Opis projektu
-Ten projekt jest klasyfikatorem opinii i ocen użytkowników pochodzących z serwisów Opineo, Twitter oraz YouTube, napisanych w języku polskim. Projekt ma na celu klasyfikację opinii jako pozytywne, neutralne oraz negatywne. Ponadto, projekt ma na celu ukazanie tematów najczęściej poruszanych w recenzjach.
+Projekt jest klasyfikatorem opinii i ocen użytkowników pochodzących z serwisów Opineo, Twitter oraz YouTube, napisanych w języku polskim. Projekt ma na celu klasyfikację opinii jako pozytywne, neutralne oraz negatywne. Ponadto, projekt ma na celu ukazanie tematów najczęściej poruszanych w recenzjach.
 
 ## Spis treści
 
-1. [Cel analizy] (#cel-analizy)
-2. [Struktura projektu] (#struktura-projektu)
-3. [Baza danych] (#baza-danych)
-4. [Zastosowane narzędzia] (#zastosowane-narzedzia)
-5. [Wstępna eksploracja danych] (#wstępna-eksploracja-danych)
-6. [Przygotowanie danych do modelowania] (#przygotowanie-danych-do-modelowania)
-7. [Modele klasyfikacji tematycznej (LDA, LSI, HDP)] (#modele-klasyfikacji-tematycznej)
-8. [Mocne i słabe strony modelu] (#mocne-i-słabe-strony-modelu)
-9. [Potenjalne kierunki rozwoju] (#potencjalne-kierunki-rozwoju)
-10. [Podsumowanie i wnioski] (#podsumowanie-i-wnioski)
-11. [Instrukcja instalacji] (#instrukcja-instalacji)
-12. [Użycie] (#użycie)
+1. [Cel analizy](#cel-analizy)
+2. [Struktura projektu](#struktura-projektu)
+3. [Baza danych](#baza-danych)
+4. [Zastosowane narzędzia](#zastosowane-narzedzia)
+5. [Wstępna eksploracja danych](#wstępna-eksploracja-danych)
+6. [Przygotowanie danych do modelowania](#przygotowanie-danych-do-modelowania)
+7. [Modele klasyfikacji tematycznej(LDA, LSI, HDP)] (#modele-klasyfikacji-tematycznej)
+8. [Mocne i słabe strony modelu](#mocne-i-słabe-strony-modelu)
+9. [Potenjalne kierunki rozwoju](#potencjalne-kierunki-rozwoju)
+10. [Podsumowanie i wnioski](#podsumowanie-i-wnioski)
+11. [Instrukcja instalacji](#instrukcja-instalacji)
+12. [Użycie](#użycie)
 
 ## Cel analizy
 1. Wyodrębnienie istotnych elementów z perspektywy klienta. Na co klienci zwracają uwagę?
